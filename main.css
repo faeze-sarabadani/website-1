@@ -1,0 +1,472 @@
+@media (min-width: 992px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 15rem;
+    }
+    /*  */
+    section#main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    section#main>main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .modal{
+        width: 90%;
+        height: 12rem;
+        background-color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        align-items: start;
+        gap: 1rem;
+        border: 1px solid darkgray;
+        border-radius: 1rem;
+    }
+    /* card */
+    section#landig{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    section#landig>main{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        gap: 10rem;
+    }
+    .card{
+        background-color: darkgray;
+        width: 14rem;
+        height: 18rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        align-items: center;
+        padding-top: 1rem;
+        gap: 3rem;
+        border-radius: 0.5rem;
+    }
+    .card>img{
+        width: 80px;
+        height: 80px;
+    }
+    .card>h3{
+        text-decoration: none;
+        font-size: medium;
+    }
+    .card>button{
+        width: 4rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: rgb(250, 80, 80);
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+        cursor: pointer;
+    }
+}
+@media (min-width: 768px) and (max-width:992px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 8rem;
+    }
+    /*  */
+    section#main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    section#main>main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .modal{
+        width: 90%;
+        height: 12rem;
+        background-color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        align-items: start;
+        gap: 1rem;
+        border: 1px solid darkgray;
+        border-radius: 1rem;
+    }
+    /* card */
+    section#landig{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    section#landig>main{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        gap: 10rem;
+    }
+    .card{
+        background-color: darkgray;
+        width: 14rem;
+        height: 18rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        align-items: center;
+        padding-top: 1rem;
+        gap: 3rem;
+        border-radius: 0.5rem;
+    }
+    .card>img{
+        width: 80px;
+        height: 80px;
+    }
+    .card>h3{
+        text-decoration: none;
+        font-size: medium;
+    }
+    .card>button{
+        width: 4rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: rgb(250, 80, 80);
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+        cursor: pointer;
+    }
+}
+@media (min-width: 576px) and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 6rem;
+    }
+    /*  */
+    section#main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    section#main>main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .modal{
+        width: 90%;
+        height: 16rem;
+        background-color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        align-items: start;
+        gap: 1rem;
+        border: 1px solid darkgray;
+        border-radius: 1rem;
+    }
+    /* card */
+    section#landig{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    section#landig>main{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        gap: 10rem;
+    }
+    .card{
+        background-color: darkgray;
+        width: 14rem;
+        height: 18rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        align-items: center;
+        padding-top: 1rem;
+        gap: 3rem;
+        border-radius: 0.5rem;
+    }
+    .card>img{
+        width: 80px;
+        height: 80px;
+    }
+    .card>h3{
+        text-decoration: none;
+        font-size: medium;
+    }
+    .card>button{
+        width: 4rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: rgb(250, 80, 80);
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+        cursor: pointer;
+    }
+}
+@media (min-width: 386px) and (max-width:576px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 2rem;
+    }
+    /*  */
+    section#main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    section#main>main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .modal{
+        width: 90%;
+        height: 16rem;
+        background-color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        align-items: start;
+        gap: 1rem;
+        border: 1px solid darkgray;
+        border-radius: 1rem;
+    }
+    /* card */
+    section#landig{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    section#landig>main{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        gap: 10rem;
+    }
+    .card{
+        background-color: darkgray;
+        width: 14rem;
+        height: 18rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        align-items: center;
+        padding-top: 1rem;
+        gap: 3rem;
+        border-radius: 0.5rem;
+    }
+    .card>img{
+        width: 80px;
+        height: 80px;
+    }
+    .card>h3{
+        text-decoration: none;
+        font-size: medium;
+    }
+    .card>button{
+        width: 4rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: rgb(250, 80, 80);
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+        cursor: pointer;
+    }
+}
