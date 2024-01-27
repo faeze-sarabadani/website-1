@@ -1,0 +1,332 @@
+@media (min-width: 992px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 15rem;
+    }
+    /* section */
+    section[id="main"]{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    section#main>main{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+    }
+    /* card */
+    
+    .card{
+        background-color: darkgray;
+        width: 14rem;
+        height: 18rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        align-items: center;
+        padding-top: 3rem;
+        gap: 3rem;
+        border-radius: 0.5rem;
+    }
+    .card>img{
+        width: 80px;
+        height: 80px;
+    }
+    /* s */
+    section#tb{
+        width: 100%;
+        height: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+        margin-top: 2rem;
+    }
+    section#tb>table{
+        width: 75%;
+        height: inherit;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+    }
+    section#tb>table>tr,td{
+        border: 1px solid black;
+    }
+    
+}
+@media (min-width: 768px) and (max-width:992px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 8rem;
+    }
+    /* section */
+    section[id="main"]{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    section#main>main{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+    }
+    /* card */
+    
+    .card{
+        background-color: darkgray;
+        width: 14rem;
+        height: 18rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        align-items: center;
+        padding-top: 3rem;
+        gap: 3rem;
+        border-radius: 0.5rem;
+    }
+    .card>img{
+        width: 80px;
+        height: 80px;
+    }
+    /* s */
+    section#tb{
+        width: 100%;
+        height: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+        margin-top: 2rem;
+    }
+    section#tb>table{
+        width: 75%;
+        height: inherit;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+    }
+    section#tb>table>tr,td{
+        border: 1px solid black;
+    }
+    
+}
+@media (min-width: 576px) and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 6rem;
+    }
+    /* section */
+    section[id="main"]{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    section#main>main{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+    }
+    /* card */
+    
+    .card{
+        background-color: darkgray;
+        width: 14rem;
+        height: 18rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        align-items: center;
+        padding-top: 3rem;
+        gap: 3rem;
+        border-radius: 0.5rem;
+    }
+    .card>img{
+        width: 80px;
+        height: 80px;
+    }
+    /* s */
+    section#tb{
+        width: 100%;
+        height: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+        margin-top: 2rem;
+    }
+    section#tb>table{
+        width: 75%;
+        height: inherit;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+    }
+    section#tb>table>tr,td{
+        border: 1px solid black;
+    }
+    
+}
+@media (min-width: 386px) and (max-width:576px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 2rem;
+    }
+    /* section */
+    section[id="main"]{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    section#main>main{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+    }
+    /* card */
+    
+    .card{
+        background-color: darkgray;
+        width: 14rem;
+        height: 18rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: column;
+        justify-content: start;
+        align-items: center;
+        padding-top: 3rem;
+        gap: 3rem;
+        border-radius: 0.5rem;
+    }
+    .card>img{
+        width: 80px;
+        height: 80px;
+    }
+    /* s */
+    section#tb{
+        width: 100%;
+        height: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+        margin-top: 2rem;
+    }
+    section#tb>table{
+        width: 75%;
+        height: inherit;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+    }
+    section#tb>table>tr,td{
+        border: 1px solid black;
+    }
+    
+}
